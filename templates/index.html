@@ -11,6 +11,9 @@
     <link rel="stylesheet" href="{% static '/styles.min.css' %}">
   </head>
   <body>
+  {% for post in fresh_posts %}
+  <h4>{{post.slug}}</h4>
+  {% endfor %}
     <!--================Header Menu Area =================-->
     <header class="header_area">
       <div class="main_menu">
