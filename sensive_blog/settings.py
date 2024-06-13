@@ -94,7 +94,7 @@ USE_TZ = True
 
 STATIC_URL = os.getenv('STATIC_URL', '/static/')
 
-STATICFILES_DIRS = (os.path.join(BASE_DIR, 'A:/Курс_DEVMAN/Lesson2_Blog_Django/Blog/blog-backend/static/'),)
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static/'))
 
 MEDIA_ROOT = os.getenv("MEDIA_ROOT", os.path.join(BASE_DIR, 'media'))
 
